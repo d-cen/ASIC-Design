@@ -12,3 +12,6 @@ Introduction to Synthesis Tuning, Structured Debugging, and Non-Exhaustive Testi
 
 ## lab-4
 Simple Sequential Logic Design and Verification
+
+## lab-5
+Serial Communication Basics, FSM Design, and Data Streaming based Testing
