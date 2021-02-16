@@ -94,7 +94,7 @@ module tb_sync_high();
   end
   
   // DUT Port map
-  sync_low DUT(.clk(tb_clk), .n_rst(tb_n_rst), .async_in(tb_async_in), .sync_out(tb_sync_out));
+  sync_high DUT(.clk(tb_clk), .n_rst(tb_n_rst), .async_in(tb_async_in), .sync_out(tb_sync_out));
   
   // Test bench main process
   initial
