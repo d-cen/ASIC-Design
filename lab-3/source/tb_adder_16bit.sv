@@ -1,4 +1,3 @@
-// 337 TA Provided Lab 2 Testbench
 // This code serves as a starter test bench for the 16 bit adder design 
 
 `timescale 1ns / 100ps
@@ -52,7 +51,6 @@ adder_16bit DUT (.a(tb_a), .b(tb_b), .carry_in(tb_carry_in), .sum(tb_sum), .over
 // Initial block to cleanly define the contents of the test-vector array
 initial begin
   // Create the test-vector array with enough slots for test cases
-  // STUDENT TODO: Update the array declaration to have enough slots
   tb_test_cases = new[9];
 
   // First Test Case/Test-Vector
@@ -61,7 +59,6 @@ initial begin
   tb_test_cases[0].test_b    = '0;
   tb_test_cases[0].test_cin  = 1'b0;
 
-  // STUDENT TODO: Add your additional test cases here after increasing the array size
   // Second Test Case
   tb_test_cases[1].test_name = "a large, b small";
   tb_test_cases[1].test_a    = 16'hFFFF;
