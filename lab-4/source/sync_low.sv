@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   sync_low.sv
-// Created:     9/17/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Reset to Logic Low Synchronizer
 
