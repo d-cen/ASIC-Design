@@ -24,7 +24,7 @@ module adder_nbit
 	assign carrys[0] = carry_in;
 
 	generate
-		for (i = 0; i < BIT_WIDTH-1; i = i + 1)
+		for (i = 0; i < BIT_WIDTH; i = i + 1)
 		begin
 			adder_1bit ADDX(.a(a[i]), .b(b[i]), .carry_in(carrys[i]), .sum(sum[i]), .carry_out(carrys[i+1]));
 		end
