@@ -1,6 +1,4 @@
-// 337 TA Provided Lab 2 Testbench
 // This code serves as a test bench for the 1 bit adder design 
-
 `timescale 1ns / 100ps
 
 module tb_adder_1bit
