@@ -43,28 +43,21 @@ module flex_counter
 			nxt_count_out = 1'b0;
 			nxt_rollover_flag = 1'b0;
 		end
-		else if (count_enable == 1'b0)
-		begin
-			if (count_out == rollover_val)
+		else begin
+			if (count_enable == 1'b1)
 			begin
-				nxt_rollover_flag = 1'b1;
+				if (rollover_val == count_out)
+				begin
+					nxt_count_out = 1;
+				end
+				else begin
+					nxt_count_out = count_out + 1;
+				end		
 			end
-		end
-		else if (count_enable == 1'b1)
-		begin
-			if (rollover_flag == 0)
-			begin
-				nxt_count_out = count_out + 1;
-			end
-			else if (rollover_flag == 1)
-			begin
-				nxt_count_out = 1;
-			end
-			
-			if (nxt_count_out == rollover_val)
+			if (rollover_val == nxt_count_out)
 			begin
 				nxt_rollover_flag = 1;
-			end
+			end	
 		end
 	end
 
