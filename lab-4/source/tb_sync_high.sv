@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_sync_high.sv
-// Created:     9/17/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Test bench for Reset to Logic Synchronizer
 
