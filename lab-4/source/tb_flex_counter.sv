@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_flex_counter.sv
-// Created:     9/23/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Test bench for Flexible Counter Design
 
@@ -190,7 +187,10 @@ module tb_flex_counter();
     @(posedge tb_clk); 
     @(posedge tb_clk); 
     @(posedge tb_clk); 
+    @(posedge tb_clk);
     @(posedge tb_clk); 
+    @(posedge tb_clk); 
+    @(posedge tb_clk);
 
     // Move away from risign edge and allow for propagation delays before checking
     #(CHECK_DELAY);
@@ -199,11 +199,11 @@ module tb_flex_counter();
                   "after processing delay", 1'b0);
     
     // ************************************************************************    
-    // Test Case 4: Count Disable
+    // Test Case 4: Discontinuous Count
     // ************************************************************************
     @(negedge tb_clk); 
     tb_test_num = tb_test_num + 1;
-    tb_test_case = "Count Disable";
+    tb_test_case = "Discontinuous Count";
     // Start out with inactive value and reset the DUT to isolate from prior tests
     clear();
 
