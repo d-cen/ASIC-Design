@@ -1,5 +1,4 @@
 // This code serves as a starter test bench for the 16 bit adder design 
-
 `timescale 1ns / 100ps
 
 module tb_adder_16bit
