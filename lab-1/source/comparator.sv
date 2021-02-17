@@ -7,7 +7,6 @@
 
 // Use a tab size of 2 spaces for best viewing results
 
-
 module comparator
 (
 	input wire [15:0] a,
@@ -16,30 +15,35 @@ module comparator
 	output reg lt,
 	output reg eq
 );
-
 	reg gte;
 	reg lte;
 
-	always @ (a, b) begin: COM
-		if (!(a > b)) begin
+	always @ (a, b) 
+	begin: COM
+		if (!(a > b)) 
+		begin
 			lte <= 1'b1;
 			gte <= 1'b0;
 		end
-		if (!(b > a)) begin
+		if (!(b > a)) 
+		begin
 			gte <= 1'b1;
 			lte <= 1'b0;
 		end
-		if (a < b) begin
+		if (a < b) 
+		begin
 			gt <= 1'b0;
 			lt <= 1'b1;
 			eq <= 1'b0;
 		end
-		else if (a > b) begin
+		else if (a > b) 
+		begin
 			gt <= 1'b1;
 			lt <= 1'b0;
 			eq <= 1'b0;
 		end
-		else begin
+		else 
+		begin
 			lte <= 1'b1;
 			gte <= 1'b1;
 			gt <= 1'b0;
