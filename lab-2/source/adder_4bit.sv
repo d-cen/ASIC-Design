@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   adder_4bit.sv
-// Created:     9/9/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: 4-bit Full Adder Design
 
