@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   adder_16bit.sv
-// Created:     9/16/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: 16-bit Full Adder Design
 
