@@ -4,11 +4,11 @@
 // Author:      Ti-Wei Chen
 // Lab Section: 
 // Version:     1.0  Initial Design Entry
-// Description: Test bench for the default settings versions of mealy
+// Description: Test bench for the default settings versions of moore
 
 `timescale 1ns / 10ps
 
-module tb_mealy();
+module tb_moore();
   // Define parameters
   // Common parameters
   localparam CLK_PERIOD        = 2.5;
@@ -117,7 +117,7 @@ module tb_mealy();
   end
 
   // DUT Portmap
-  mealy DUT (.clk(tb_clk), .n_rst(tb_n_rst), 
+  moore DUT (.clk(tb_clk), .n_rst(tb_n_rst), 
                     .i(tb_i), 
                     .o(tb_o));
 
