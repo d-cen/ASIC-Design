@@ -4,7 +4,7 @@
 // Author:      Ti-Wei Chen
 // Lab Section: 
 // Version:     1.0  Initial Design Entry
-// Description: Test bench for the default settings versions of moore
+// Description: Test bench for the default settings versions of mealy
 
 `timescale 1ns / 10ps
 
