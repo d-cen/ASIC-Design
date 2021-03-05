@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_flex_pts_sr.sv
-// Created:     9/30/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 
 // Version:     1.0  Initial Design Entry
 // Description: Test bench for the default settings versions of Flex PTS SR
 
@@ -280,8 +277,5 @@ module tb_flex_pts_sr();
       // Add some spacing between the check and the start of the next bit
       #(0.25 * CLK_PERIOD);
     end
-
-    // STUDENT TODO: Add more test cases here
-
   end
 endmodule
