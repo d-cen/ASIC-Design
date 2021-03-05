@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   start_bit_det.sv
-// Created:     2/5/2013
-// Author:      foo
-// Lab Section: 99
 // Version:     1.0  Initial Design Entry
 // Description: start bit detector for UART RX Design
 
