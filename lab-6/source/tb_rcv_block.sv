@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_rcv_block-starter.sv
-// Created:     2/5/2013
-// Author:      foo
-// Lab Section: 99
 // Version:     1.0  Initial Design Entry
 // Description: starter top level test bench provided for Lab 5
 
@@ -293,8 +290,6 @@ module tb_rcv_block();
     
     // Check outputs
     check_outputs(tb_test_data_read);
-  
-    // Append additonal test cases here (such as overrun case)
     
   end
 
