@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   sr_9bit.sv
-// Created:     10/7/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: 9-bit Shift Register
 
