@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   flex_counter.sv
-// Created:     9/23/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Flexible Counter Design
 
