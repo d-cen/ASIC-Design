@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_stp_sr_4_msb.sv
-// Created:     9/14/2018
-// Author:      Tim Pritchett
-// Lab Section: 9999
 // Version:     1.0  Initial Design Entry
 // Description: Test bench for the default settings versions of Flex STP SR
 
