@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   rx_data_buff.sv
-// Created:     2/5/2013
-// Author:      foo
-// Lab Section: 99
 // Version:     1.0  Initial Design Entry
 // Description: 8-bit data buffer for UART RX Design
 
