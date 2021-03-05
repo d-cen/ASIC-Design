@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_mealy.sv
-// Created:     9/30/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 
 // Version:     1.0  Initial Design Entry
 // Description: Test bench for the default settings versions of moore
 
