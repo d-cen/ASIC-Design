@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   mealy.sv
-// Created:     09/30/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Mealy Machine '1101' Detector Design
 
