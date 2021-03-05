@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   stp_sr_4_msb.sv
-// Created:     9/14/2018
-// Author:      Tim Pritchett
-// Lab Section: 9999
 // Version:     1.0  Initial Design Entry
 // Description: 4-bit MSB Serial to Parallel shift register 
 //              (Defaults for Flex StP SR)
