@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   flex_pts_sr.sv
-// Created:     9/30/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Flexible Parallel-to-Serial Shift Register Design
 
