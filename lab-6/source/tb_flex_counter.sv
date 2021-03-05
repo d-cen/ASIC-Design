@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_flex_counter.sv
-// Created:     9/23/2020
-// Author:      Ti-Wei Chen
-// Lab Section: 337-09
 // Version:     1.0  Initial Design Entry
 // Description: Test bench for Flexible Counter Design
 
