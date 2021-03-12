@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   tb_flex_counter.sv
-// Created:     2/15/2021
-// Author:      Ti-Wei Chen
-// Lab Section: 337-06
 // Version:     1.0  Initial Design Entry
 // Description: Test Bench for Flex Counter
 
