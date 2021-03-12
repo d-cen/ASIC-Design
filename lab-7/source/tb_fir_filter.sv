@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   fir_filter.sv
-// Created:     9/23/2015
-// Author:      foo
-// Lab Section: 99
 // Version:     1.0  Initial Design Entry
 // Description: Course Staff Provided Starter Test bench
 
