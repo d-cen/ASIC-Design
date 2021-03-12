@@ -1,8 +1,5 @@
 // $Id: $
 // File name:   fir_filter.sv
-// Created:     3/11/2021
-// Author:      Ti-Wei Chen
-// Lab Section: 337-06
 // Version:     1.0  Initial Design Entry
 // Description: Finite Impulse Response (FIR) Filter Design
 
